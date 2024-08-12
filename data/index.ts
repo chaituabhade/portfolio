@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Aspiring Software Engineer | Developing technical expertise for a successful software career. ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/Untitled design.png",
     spareImg: "",
   },
   {
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Learning React,Next.js and c++ ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -67,41 +67,43 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+
+  
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Porsnal Notes app (backend project)",
+    des: "These is a abackend project which includes authentication(also wth google), database, server. ",
+    img: "/project.png",
+    iconLists: ["/javascript-icon.svg", "/tail.svg", "/nodejs-icon.svg", "/mongodb-icon.svg", "css-icon.svg", "icons8-ejs.svg"],
+    link: "https://github.com/chaituabhade/notes-backend-/tree/main",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "portfolio(frontend)",
+    des: "This live protfolio is my frontend project. it mainly focused on frontend",
+    img: "/proj-2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/nodejs-icon.svg"],
+    link: "/",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "/ui.aiimg.com",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
@@ -140,78 +142,123 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "HTML",
+    img: "/html5-icon.svg",
+    // nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "CSS",
+    img: "/css-icon.svg",
+    //nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "JavaScript",
+    img: "/javascript-icon.svg",
+    //nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "TypeScript(basic)",
+    img: "/typescriptlang-icon.svg",
+    //nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Node.js",
+    img: "/nodejs-icon.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "Express",
+    img: "/icons8-express-js.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 7,
+    name: "React(Learning)",
+    img: "/reactjs-icon.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 8,
+    name: "Next.js(Learning)",
+    img: "/nextjs-icon.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 9,
+    name: "ejs",
+    img: "/icons8-ejs.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 10,
+    name: "MongoBD(Basic)",
+    img: "/mongodb-icon.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 11,
+    name: "C++",
+    img: "/c.svg",
+    //nameImg: "/dockerName.svg",
+  },
+  {
+    id: 12,
+    name: "Python",
+    img: "/python-icon.svg",
+    //nameImg: "/dockerName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "First year",
+    desc: "First sem SGPA: 9.45 | Second sem SGPA:9.18",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Second year",
+    desc: "Not yet declared....",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/chaituabhade"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/icons8-instagram.svg",
+    url: "https://www.instagram.com/chaitanyaabhade?igsh=MTVkMXFyc2N6Z3h4dQ=="
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/chaitanya-abhade-b23080321/"
   },
 ];
