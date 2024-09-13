@@ -11,8 +11,15 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { useEffect } from "react";
+
+
+
 
 const Home = () => {
+
+
+  
   useEffect(() => {
     // This hook should only be used inside a function component
     const script = document.createElement('script');
@@ -24,6 +31,7 @@ const Home = () => {
       document.body.removeChild(script); // Clean up
     };
   }, []);
+
 
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -37,8 +45,9 @@ const Home = () => {
         <Experience />
         <Approach />
         <Footer />
+        
       </div>
-      <my-widget project-id="228"></my-widget>
+      <my-widget project="228"></my-widget>
     </main>
   );
 };
