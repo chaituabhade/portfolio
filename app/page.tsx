@@ -13,6 +13,18 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
+  useEffect(() => {
+    // This hook should only be used inside a function component
+    const script = document.createElement('script');
+    script.src = 'https://nexx-widget.vercel.app/widget.umd.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script); // Clean up
+    };
+  }, []);
+
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
@@ -26,6 +38,7 @@ const Home = () => {
         <Approach />
         <Footer />
       </div>
+      <my-widget project-id="228"></my-widget>
     </main>
   );
 };
